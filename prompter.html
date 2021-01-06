@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <style>
+        .container{
+            width: 500px;
+            height: 500px;
+            background: #f0f0f0;
+        }
+        .text_area{
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+        }
+        .buttons{
+            width: 100%;
+            padding:10px;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="text_area" id="text_area"></div>
+        <div class="buttons">
+            <button id="start_scrolling">Start Scrolling</button>
+            <button id="stop_scrolling">Stop Scrolling</button>
+            <br>
+            <button id="increase_font_size">Increase Font Size</button>
+            <button id="descrease_font_size">Descrease Font Size</button>
+            <br>
+
+            <button id="increase_speed">Increase Speed</button>
+            <button id="descrease_speed">Descrease Speed</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="js/prompter.js"></script>
+</body>
+
+</html>
